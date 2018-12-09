@@ -4,10 +4,10 @@
 
 ---
 
-Version = 0.0.3 <br />
+Version = 0.0.4 <br />
 Bibliotheksname = sigma_sms <br />
 Titel = Sigma SMS API gate <br />
-Schlüsselwörter = API, , Gate, , SMS, , SMS, Gate, , Sigma, , Phone, , Node, , React, JS, , React, Native, , Vue, , Angular, , Javascript <br />
+Schlüsselwörter = API,  Gate,  SMS,  SMS Gate,  Sigma,  Phone,  Node,  React JS,  React Native,  Vue,  Angular,  Javascript <br />
 
 ### Heiß zu installieren
 
