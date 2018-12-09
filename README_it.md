@@ -4,7 +4,7 @@
 
 ---
 
-Versione = 0.0.1 <br />
+Versione = 0.0.2 <br />
 Nome libreria = sigma_sms <br />
 Titolo = Sigma SMS API gate <br />
 Parole chiave = good <br />
