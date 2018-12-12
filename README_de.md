@@ -4,7 +4,7 @@
 
 ---
 
-Version = 0.0.5 <br />
+Version = 0.0.6 <br />
 Bibliotheksname = sigma_sms <br />
 Titel = Sigma SMS API gate <br />
 Schlüsselwörter = API,  Gate,  SMS,  SMS Gate,  Sigma,  Phone,  Node,  React JS,  React Native,  Vue,  Angular,  Javascript <br />
@@ -19,11 +19,31 @@ yarn add sigma_sms
 ### Wie benutzt man
 
 ```javascript
-const {sigma_sms} = require('sigma_sms');
-console.dir(sigma_sms)
+const SIGMA = require('sigma_sms');
 
-s = new sigma_sms('Example key').start('Hello');
-console.log(s)
+const username = '****'
+const password = '****'
+const sender_name = 'B-Media'
+
+new SIGMA(username, password).send(sender_name, 'What about 11?', ['+346400000',]).then(res => {
+
+	console.log('send() :: RESPONSE')
+	console.log(res.data)
+
+	const {id} = res.data
+	if(id) {
+		new SIGMA(username, password).status(id).then(res => {
+			console.log('status() :: RESPONSE')
+			console.log(res.data)
+		})
+	}
+
+}).catch(err => {
+	const msg_err = `API Error :: response status ${err.response.status}`
+	console.log(msg_err)
+	return msg_err
+})
+
 ```
 
 
