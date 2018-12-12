@@ -4,7 +4,7 @@
 
 ---
 
-Версия = 0.0.4 <br />
+Версия = 0.0.5 <br />
 Название библиотеки = sigma_sms <br />
 Название = Sigma SMS API gate <br />
 Ключевые слова = API,  Gate,  SMS,  SMS Gate,  Sigma,  Phone,  Node,  React JS,  React Native,  Vue,  Angular,  Javascript <br />

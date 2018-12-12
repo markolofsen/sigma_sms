@@ -4,7 +4,7 @@
 
 ---
 
-Versione = 0.0.4 <br />
+Versione = 0.0.5 <br />
 Nome libreria = sigma_sms <br />
 Titolo = Sigma SMS API gate <br />
 Parole chiave = API,  Gate,  SMS,  SMS Gate,  Sigma,  Phone,  Node,  React JS,  React Native,  Vue,  Angular,  Javascript <br />
